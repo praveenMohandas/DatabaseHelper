@@ -1,0 +1,10 @@
+psycopg2
+sentence-transformers
+fastapi
+pydantic
+openai==0.28
+uvicorn
+langchain
+langchain-community
+langchain-postgres
+psycopg[binary]
