@@ -1,8 +1,8 @@
-# Dune Helper Pipeline
+# DatabaseHelper Pipeline
 
 ## Introduction
 
-The Dune Helper  is a the backend pipeline of Dune helper bot,an advanced query processing application that leverages FastAPI, PostgreSQL, and OpenAI's API for natural language processing. The pipeline takes in user queries, determines their intent, retrieves relevant context from a PostgreSQL database (using pgvector for embedding similarity), and optionally performs database actions such as adding, replacing, or deleting content. Additionally, it manages conversation history to provide context-aware responses.
+The DatabaseHelper  is a the backend pipeline of  bot,an advanced query processing application that leverages FastAPI, PostgreSQL, and OpenAI's API for natural language processing. The pipeline takes in user queries, determines their intent, retrieves relevant context from a PostgreSQL database (using pgvector for embedding similarity), and optionally performs database actions such as adding, replacing, or deleting content. Additionally, it manages conversation history to provide context-aware responses.
 
 ## Features
 
@@ -93,7 +93,7 @@ All user and AI messages are stored in PostgreSQL, maintaining context across in
 
 ## Folder Structure
 
-DuneHelperPipeline/
+DatabaseHelperPipeline/
 
 ├── config.py             # Configuration file (database credentials, API keys, model settings, prompts)
 
